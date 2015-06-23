@@ -6,5 +6,6 @@ project(UnnamedParamFunc)
 set(SOURCE_FILES Cstyle.c
                 main.cpp
                 Class.cpp
+                Arr.cpp
                 )
 add_executable(UnnamedParamFunc ${SOURCE_FILES})

@@ -1,12 +1,10 @@
 #include "Cstyle.h"
 
-void someFuncAAAAA(int a, int, int c)
+void someFuncAAAAA(int a, int b, int c)
 {
-    printf("Ola-la-la");
+    printf("Ola-la-la\n");
 
-}
+    struct S s;
 
-void voidFunc1(void)
-{
-    
+    char * d = (&s)->descr;
 }

@@ -1,14 +1,20 @@
 #include <stdio.h>
 
 
-//#ifdef __cplusplus
-//extern "C" {
-//#endif
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 void someFuncAAAAA(int a, int, int c);
 
 void voidFunc();
-//
-//#ifdef __cplusplus
-//};
-//#endif
+
+struct S{
+
+	int val;
+	char descr[1024];
+};
+
+#ifdef __cplusplus
+};
+#endif
